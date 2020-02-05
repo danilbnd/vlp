@@ -7,11 +7,11 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
-  <meta name="description" content="">
+  <meta name="description" content="Магазин книжок та журналiв">
   <meta name="theme-color" content="#ff5912">
 
   <meta property="og:title" content="Home" />
-  <meta property="og:description" content="" />
+  <meta property="og:description" content="Магазин книжок та журналiв" />
   <meta property="og:image" content="" />
   <link rel="stylesheet" href="assets/css/app.css">
 
@@ -21,7 +21,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ff5912">
+
 </head>
 
 <body>
@@ -60,25 +60,26 @@
       			<div class="column small-12 medium-5 text-center medium-text-right">
       				<button class="menu-icon dark hide-for-medium" type="button" data-open="offCanvas" aria-label="Show menu">
       				</button>
-      				<a href="#">
+      				<a href="#" title="Пошук">
       					<svg width="29" height="30">
-      						<use xlink:href="#icon-search">
+      						<use xlink:href="#icon-search" />
       					</svg>
+      					
       					<span class="show-for-medium">
       						Пошук
       					</span>
       				</a>
-      				<a href="#">
+      				<a href="#" title="Кошик">
       					<svg width="34" height="30">
-      						<use xlink:href="#icon-card">
+      						<use xlink:href="#icon-card" />
       					</svg>
       					<span class="show-for-medium">
       						Кошик
       					</span>
       				</a>
-      				<a href="#">
+      				<a href="#" title="Увійти">
       					<svg width="30" height="30">
-      						<use xlink:href="#icon-user">
+      						<use xlink:href="#icon-user" />
       					</svg>
       					<span class="show-for-medium">
       						Увійти
@@ -99,7 +100,8 @@
         
         			<form action="#" method="post">
         				<div class="input-group">
-        					<input required class="input-group-field" type="search" name="search">
+        					<label class="screen-reader" for="search-input">Пошук</label>
+        					<input id="search-input" required class="input-group-field" type="search" name="search">
         					<div class="input-group-button">
         						<button type="submit" class="hollow secondary button button--icon flex-container align-middle">
         							<svg width="29" height="30">
@@ -176,7 +178,6 @@
         	<!-- /.row -->
         
         </section>
-        
         <section class="ba-section-new">
         	<div class="row aling-center">
         		<div class="column small-12 medium-10">
@@ -198,7 +199,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -229,7 +230,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -260,7 +261,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -291,7 +292,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -322,7 +323,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -353,7 +354,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -384,7 +385,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -415,7 +416,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -446,7 +447,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -477,7 +478,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -508,7 +509,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -539,7 +540,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -570,7 +571,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -601,7 +602,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -632,7 +633,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -663,7 +664,7 @@
         								<img  src="assets/img/n11.jpg"
         								alt="Управління дорожнім рухом на регульованих перехрестях у містах">
         							</a>
-        							<button type="submit" class="ba-product-new__add-to-cart">
+        							<button type="submit" class="ba-product-new__add-to-cart" title="Додати у кошик">
         								<svg width="55" height="50">
         									<use xlink:href="#icon-card"/>
         								</svg>
@@ -688,10 +689,6 @@
         			</div>
         			<!-- /.ba-slider-new -->
         
-        
-        
-        		</div>
-        
         	</div>
         	<!-- /.column -->
         	</div>
@@ -706,7 +703,7 @@
         	  <div class="column small-12 medium-4">
         		 <article class="ba-event">
         			<a class="ba-event__link">
-        			  <img src="assets\img\event-img3.jpg" alt="Хай живуть канікули!">
+        			  <img src="assets/img/event-img3.jpg" alt="Хай живуть канікули!">
         			</a> <!-- /.ba-event__link -->
         			<div class="ba-event__body">
         				<h3 class="ba-event__title">
@@ -728,7 +725,7 @@
         	  <div class="column small-12 medium-4">
         		 <article class="ba-event">
         			<a class="ba-event__link">
-        			  <img src="assets\img\event-img3.jpg" alt="Хай живуть канікули!">
+        			  <img src="assets/img/event-img3.jpg" alt="Хай живуть канікули!">
         			</a> <!-- /.ba-event__link -->
         			<div class="ba-event__body">
         				<h3 class="ba-event__title">
@@ -750,7 +747,7 @@
         	  <div class="column small-12 medium-4">
         		 <article class="ba-event">
         			<a class="ba-event__link">
-        			  <img src="assets\img\event-img3.jpg" alt="Хай живуть канікули!">
+        			  <img src="assets/img/event-img3.jpg" alt="Хай живуть канікули!">
         			</a> <!-- /.ba-event__link -->
         			<div class="ba-event__body">
         				<h3 class="ba-event__title">
@@ -812,9 +809,9 @@
       			<ul class="menu vertical">
       				<li>
       
-      					<a href="#">
+      					<a href="#" title="Пошук">
       						<svg width="29" height="30">
-      							<use xlink:href="#icon-search">
+      							<use xlink:href="#icon-search" />
       						</svg>
       						<span class="show-for-medium">
       							Пошук
@@ -823,9 +820,9 @@
       				</li>
       				<li>
       
-      					<a href="#">
+      					<a href="#" title="Увійти">
       						<svg width="30" height="30">
-      							<use xlink:href="#icon-user">
+      							<use xlink:href="#icon-user" />
       						</svg>
       						<span class="show-for-medium">
       							Увійти
